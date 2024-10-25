@@ -41,7 +41,7 @@ Use the following npm scripts to run tests:
   Examples:
   ```
   TEST_ENV=dev npm run test:chromium
-  TEST_EN
+  TEST_ENV=stage npm run test:api-tests
 
 
 ## Project Structure
