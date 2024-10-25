@@ -1,0 +1,51 @@
+{
+  "cookies": [
+    {
+      "name": "_ga",
+      "value": "GA1.1.671376104.1729870832",
+      "domain": ".cxmeter.io",
+      "path": "/",
+      "expires": 1764430832.451466,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_BF0ERLELNN",
+      "value": "GS1.1.1729870832.1.1.1729870832.0.0.0",
+      "domain": ".cxmeter.io",
+      "path": "/",
+      "expires": 1764430832.455637,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://stg-app.cxmeter.io",
+      "localStorage": [
+        {
+          "name": "i18nextLng",
+          "value": "en-US"
+        },
+        {
+          "name": "parent_entity",
+          "value": "{\"configuration\":null,\"email\":\"cxmetertest+01@gmail.com\",\"id\":159,\"industry_type\":1,\"last_onboarding_url\":null,\"logo\":\"https://cxmeter-stage-backend-otaer7ei.s3.amazonaws.com/images/image_5x4Xmcd.png\",\"name\":\"Arbisoft\",\"phone_number\":null}"
+        },
+        {
+          "name": "access_token",
+          "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzI5OTU3MjMxLCJpYXQiOjE3Mjk4NzA4MzEsImp0aSI6IjNkOTMzNDIxM2JmNjQ0NWM5MjQxN2FlYTgyZTcxOGRiIiwidXNlcl9pZCI6MjY2fQ.lt8tZ092A015NtsuPs75_svFQdJJBSVmoWrmXHaaTLw"
+        },
+        {
+          "name": "user",
+          "value": "{\"id\":266,\"email\":\"cxmetertest+01@gmail.com\",\"first_name\":\"NewFirstName\",\"last_name\":\"NewLastName\",\"type\":1,\"is_superuser\":false,\"is_active\":true,\"is_google_login\":false,\"survey_skipped_at\":\"2024-10-22T09:23:52.318000Z\",\"profile_photo\":null}"
+        },
+        {
+          "name": "refresh_token",
+          "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTczMjQ2MjgzMSwiaWF0IjoxNzI5ODcwODMxLCJqdGkiOiJlMWFiODdiMjg2Yzc0MmJhOThkNDllYjAxZTE2NmQyOCIsInVzZXJfaWQiOjI2Nn0.f6d5lRHymmaryUDbs-DGqHsuB2A19nDHuqBJolT_L_s"
+        }
+      ]
+    }
+  ]
+}

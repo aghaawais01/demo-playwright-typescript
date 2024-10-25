@@ -1,0 +1,10 @@
+{
+    "configuration": null,
+    "email": "{{USER_LOGIN_EMAIL}}",
+    "id": 159,
+    "industry_type": 1,
+    "last_onboarding_url": null,
+    "logo": "https://cxmeter-stage-backend-otaer7ei.s3.amazonaws.com/images/image_5x4Xmcd.png",
+    "name": "Arbisoft",
+    "phone_number": null
+}

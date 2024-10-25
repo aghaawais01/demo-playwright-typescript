@@ -1,0 +1,30 @@
+{
+  "name": "demo-playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "playwright test",
+    "test:dev": "TEST_ENV=dev playwright test",
+    "test:stage": "TEST_ENV=stage playwright test",
+    "test:chromium": "playwright test --project=chromium",
+    "test:chromium-no-setup": "playwright test --project=chromium-no-setup",
+    "test:api": "playwright test --project=api-tests"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.48.1",
+    "@types/node": "^22.7.9",
+    "@typescript-eslint/eslint-plugin": "^8.11.0",
+    "@typescript-eslint/parser": "^8.11.0",
+    "eslint": "^9.13.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "winston": "^3.15.0"
+  }
+}
