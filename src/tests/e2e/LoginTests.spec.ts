@@ -1,5 +1,6 @@
 import { test, expect } from '@playwright/test';
 import { LoginPage } from '../../pages/interactions/LoginPage';
+import { config } from '../../../environments';
 
 test.describe('Login Functionality', () => {
   let loginPage: LoginPage;
@@ -10,7 +11,7 @@ test.describe('Login Functionality', () => {
   });
 
   test('successful login', async () => {
-    await loginPage.login('test@example.com', 'password123');
+    await loginPage.login(config.userLoginEmail, config.userPassword);
   });
 
   test('login with invalid credentials', async () => {
